@@ -1,0 +1,102 @@
+body{
+ background: linear-gradient(to left, white, green);
+ font-family: sans-serif;
+}
+.container1 {
+  width: 90%;
+  margin: 0;
+  overflow: hidden;
+}
+.container2 {
+  width: 80%;
+  margin: 0;
+  overflow: hidden;
+  align-items: center;
+}
+.container3 {
+  width: 95%;
+  margin: 0;
+  overflow: hidden;
+  align-items: center;
+}
+header {
+ margin-top: 2%;
+}
+
+header h1{
+ font-size: 4rem;
+ float: left;
+ margin-top: 7%;
+ margin-left: 20px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  /* float: right; */
+  position:fixed;
+  top: 4%;
+  right: 2%;
+}
+
+nav li {
+  display: inline;
+  padding: 8px;
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  font-family: fantasy;
+  font-size: 1.5rem;
+  color: #000;
+}
+#intro p, img{
+ display: inline;
+ margin: 0;
+ padding: 0;
+}
+#intro p{
+ width: 70%;
+ height: auto;
+ float: left;
+}
+#intro img{
+ float: right;
+ width: 200px;
+ height: auto;
+ margin-right: 4%;
+}
+
+.main{
+ margin-left: 5%;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main h3{
+ font-size: 1.6rem;
+}
+.main p{
+ font-size: 1.4rem;
+}
+.main li{
+ font-size: 1.2rem;
+}
+
+#projects li{
+ list-style-type: none;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 1.3rem;
+ color: black;
+}
+
+#projects li:hover{
+ color: chocolate;
+ text-decoration: transparent;
+}
+#projects li:visited {
+ color: black;
+ text-decoration: transparent;
+}
+#projects li:link {
+ color: black;
+ text-decoration: transparent;
+}
